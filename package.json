@@ -1,0 +1,14 @@
+{
+  "name": "gerador-de-senhas",
+  "version": "1.0.0",
+  "description": "CLI para gerar senhas seguras personalizadas",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "gerar-senha": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.7"
+  }
+}
