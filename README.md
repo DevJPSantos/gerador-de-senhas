@@ -18,30 +18,30 @@ Uma aplicação de terminal simples para gerar senhas aleatórias e seguras, des
    git clone https://github.com/DevJPSantos/gerador-de-senhas.git
 
 2. **Navegue até a pasta do projeto:**
-´´´
+```
     cd gerador-de-senhas
-´´´
+```
 3. **Instale as dependências**
-´´´
+```
     npm install
-´´´
+```
 4. **(Opcional) Crie um comando global:**
-´´´
+```
     npm link
-´´´
+```
 5. **Execute a aplicação**
 
 * **Se usou npm link:**
-´´´
+```
     gerar-senha
-´´´
+```
 * **Ou diretamente:**
-´´´
+```
     node index.js
-´´´
+```
 ## 🛠️ Estrutura do Projeto
 
-´´´
+```
 gerador-de-senhas/
 ├── src/
 │   └── gerador.js         # Função de geração da senha
@@ -49,7 +49,7 @@ gerador-de-senhas/
 ├── package.json           # Configuração do projeto e dependências
 ├── .gitignore             # Ignora node_modules
 └── README.md              # Documentação do projeto
-´´´
+```
 
 ## ⚙️ Tecnologias Utilizadas
 
